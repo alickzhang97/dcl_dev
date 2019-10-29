@@ -7,6 +7,7 @@ view: users {
     type: number
     sql: ${TABLE}.id ;;
   }
+  dimension: now_mysql { sql: NOW();; }
 
   dimension: age {
     type: number
