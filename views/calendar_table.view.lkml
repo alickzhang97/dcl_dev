@@ -11,6 +11,10 @@ view: calendar_table {
     sql: ${TABLE}.dayName ;;
   }
 
+  dimension: one {
+    sql: 1 ;;
+  }
+
   dimension_group: dt {
     type: time
     timeframes: [
